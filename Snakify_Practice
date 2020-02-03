@@ -31,6 +31,16 @@ print 'the previous number for the number', a, 'is', c
 
 
 ○Two timestamps
+print 'Enter the hour minutes and seconds'
+hour = int(input())
+minutes = int(input())
+seconds = int(input())
+print 'Enter the second hour minutes and seconds'
+hour2 = int(input())
+minutes2 = int(input())
+seconds2 = int(input())
+minusseconds = ( hour * 3600 + minutes * 60 + seconds )-( hour2 * 3600 + minutes2 * 60 + seconds2)
+print minusseconds
 
 
 ===================================================================

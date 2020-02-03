@@ -1,1 +1,72 @@
-1 exercise 
+① Input, print and numbers
+
+○Sum of three numbers
+# This program reads two numbers and prints their sum:
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b + c)
+
+○Square
+# Read an integer:
+a = int(input())
+print(a * a)
+
+○Apple sharing
+# Read the numbers like this:
+n = int(input())
+k = int(input())
+# Example of division, integer division and remainder:
+print(k // n)
+print(k % n)
+
+
+○Previous and next
+# Read an integer:
+a = int(input())
+b = a +1 
+c = a -1
+print('the next number for the number is'), print(b)
+print ('the previous number for the number is' ), print(c)
+
+
+○Two timestamps
+
+===================================================================
+
+② Integer and float numbers
+
+○Last digit of integer
+
+
+○Tens digits
+
+
+○Car route
+
+
+○Digital Clock
+
+========================================================================
+
+③ Conditions if then else
+
+○ Minimum of two numbers
+
+○Sign function
+
+○Rock move
+
+○Chocolate bar
+
+④ For loop with range
+
+○Sum of N numbers
+
+
+○The number of zeros
+
+
+○Lost card
+
+

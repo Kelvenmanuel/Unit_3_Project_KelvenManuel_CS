@@ -48,7 +48,10 @@ print minusseconds
 ② Integer and float numbers
 
 ○Last digit of integer
-
+#This program will get the last digit of an intiger/ input 
+a = int(input("Enter a number: "))
+last = a % 10
+print "The last digit is", last
 
 ○Tens digits
 
@@ -70,15 +73,7 @@ print minusseconds
 
 ○Chocolate bar
 
-④ For loop with range
 
-○Sum of N numbers
-
-
-○The number of zeros
-
-
-○Lost card
 
 ========================================================================
 

@@ -54,10 +54,22 @@ last = a % 10
 print "The last digit is", last
 
 ○Tens digits
-
+n = int(input("Enter a number: "))
+b = (n // 10) % 10
+print b
 
 ○Car route
+N = int(input("Enter the N kilometers: "))
 
+M = int(input("Enter the M kilometers: "))
+ 
+A=M%N
+if A != 0:
+  B = ((M//N)+1)
+  print B
+else:
+  B = M/N
+  print B 
 
 ○Digital Clock
 

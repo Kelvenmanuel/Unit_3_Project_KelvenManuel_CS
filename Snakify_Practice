@@ -99,7 +99,16 @@ else :
   print 0
   
 ○Rock move
+a = int (input("enter 1st cell row1: "))
+b = int (input("enter 1st cell col1: "))
+c = int (input("enter 2nd cell row2: "))
+d = int (input("enter : 2nd cell col2: "))
 
+if a == c and b == d 
+  print yes 
+else : 
+  print no 
+  
 ○Chocolate bar
 
 

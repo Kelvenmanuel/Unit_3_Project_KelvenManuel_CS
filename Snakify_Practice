@@ -72,6 +72,10 @@ else:
   print B 
 
 ○Digital Clock
+n = int(input("Enter the min: "))
+h = n // 60
+m = n % 60
+print h, m 
 
 ========================================================================
 

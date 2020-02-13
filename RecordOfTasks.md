@@ -3,7 +3,7 @@
 
 
 
-
+--------------------------------------------------------------------------------------------
 | Task nº | Planned actions | Expected outcome | Time     |    Target   |   Criterion 
 --------------------------------------------------------------------------------------------
 |         |                 |                  |          |             |                  
@@ -13,3 +13,9 @@
 |
 |
 |
+
+
+# Success criteria
+
+Identify different brands and the country that the ones come from 
+identify diff

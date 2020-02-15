@@ -25,5 +25,12 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 
 # Success criteria
 
-Identify different brands and the country that the ones come from 
-identify diff
+1. Identify the brand and the country that produced the Shoe;
+2. Information about how many shoe the iventory has;
+3. Identify the colorway of every shoe; 
+4. Recognize/provide the current price, past and retail price of every shoe;
+5. Display the volarity of every shoe;
+6. Provide the amount of sales that every shoe has;
+7. Show the last time that the shoe was used;
+8. Every shoe can be edited and deleted.
+

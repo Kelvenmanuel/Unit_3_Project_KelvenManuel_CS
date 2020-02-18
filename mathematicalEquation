@@ -1,4 +1,5 @@
 import random
+import math
 import matplotlib.pyplot as pyplot
 sum = 0
 for num in range(100):
@@ -8,8 +9,18 @@ average = sum//1000
 print(" the average of the random numbers is: ", average)
 
 
-for x in range(1, 2, 3, 4,):
-    y = 10 * x + 20
+for a in range(-10, 10):
+    math.sin = 0.5 * a
+    equation = 14*math.sin
+    pyplot.plot(a, equation)
+    pyplot.xlabel(a)
+    pyplot.ylabel(equation)
+    pyplot.show()
+
+
+
+for x in range(0, 10, 2):
+    y = 2 * x + 10
 
 pyplot.plot(x, y)
 pyplot.xlabel(x)

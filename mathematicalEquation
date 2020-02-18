@@ -1,0 +1,17 @@
+import random
+import matplotlib.pyplot as pyplot
+sum = 0
+for num in range(100):
+    num = random.randint(1, 1001)
+    sum += num
+average = sum//1000
+print(" the average of the random numbers is: ", average)
+
+
+for x in range(1, 2, 3, 4,):
+    y = 10 * x + 20
+
+pyplot.plot(x, y)
+pyplot.xlabel(x)
+pyplot.ylabel(y)
+pyplot.show()

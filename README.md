@@ -6,16 +6,17 @@
 A SHOE Inventoy APP created using Python
 
 Contents
-------------------------------
+==============================================
   1. [Planning](#planning)
   1. [Design](#design)
   1. [Development](#development)
   1. [Evalution](#evaluation)
   
-==============================================
+
 
  1.Planning
------------------
+==============================================
+
 ### Definition of the problem 
 
 ### Proposed Solution 
@@ -31,22 +32,21 @@ Contents
 7. Show the last time that the shoe was used;
 8. Every shoe can be edited and deleted.
 
-======================================================
+
 
  2.Design 
------------------------
+==============================================
 
 
-==========================================================
+
 
 3.Development 
------------------------
+==============================================
 
 4.Evaluation 
------------------------
+==============================================
 
 
-=============================================================
 
 ### What we can do to improve this program?
 

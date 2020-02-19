@@ -12,7 +12,7 @@ Contents
   1. [Development](#development)
   1. [Evalution](#evaluation)
 
- Planning
+ 1.Planning
 -----------------
 ### Definition of the problem 
 
@@ -29,15 +29,15 @@ Contents
 7. Show the last time that the shoe was used;
 8. Every shoe can be edited and deleted.
 
- Design 
+ 2.Design 
 -----------------------
 
 
 
-Development 
+3.Development 
 -----------------------
 
-Evaluation 
+4.Evaluation 
 -----------------------
 
 ### What we can do to improve this program?

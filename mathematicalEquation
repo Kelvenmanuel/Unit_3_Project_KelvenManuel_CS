@@ -4,26 +4,43 @@ import math
 
 sum = 0
 for num in range(100):
-    num = random.randint(1, 1001)
-    sum += num
+    x = random.randint(1, 1001)
+    sum += x
 average = sum//1000
 print(" the average of the random numbers is: ", average)
+print(" ")
+print("======================================")
+print(" ")
 
+a = []
+equation = []
+for num2 in range(-10, 10):
+    a.append(num2)
+    sin = math.sin(0.5 * num2)
+    equation.append(14 * sin)
+    print("The y value for x: {}".format(num2), "is : {} ".format(equation))
+    print(" ")
 
-for a in range(-10, 10):
-    sin = math.sin(0.5 * a)
-    equation = 14 * sin
-    pyplot.plot(a, equation)
-    pyplot.xlabel(a)
-    pyplot.ylabel(equation)
-    pyplot.show()
-
-
-
-for x in range(0, 10, 2):
-    y = 2 * x + 10
-
-pyplot.plot(x, y)
-pyplot.xlabel(x)
-pyplot.ylabel(y)
+pyplot.plot(num2, equation)
+pyplot.xlabel('num2')
+pyplot.ylabel("equation")
 pyplot.show()
+print(" ")
+print("======================================")
+print(" ")
+
+# this is the mathematical function y = 2x + 10
+y = []
+c = []
+for num3 in range(0, 10, 2):
+    c.append(num3)
+    y.append(2 * num3 + 10)
+    print("The y value for x: {}".format(num3), "is : {} ". format(y))
+
+pyplot.plot(num3, y)
+pyplot.xlabel('num3')
+pyplot.ylabel('y')
+pyplot.show()
+print(" ")
+print("======================================")
+print(" ")

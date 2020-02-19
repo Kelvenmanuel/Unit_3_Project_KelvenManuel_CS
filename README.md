@@ -1,4 +1,4 @@
-# Unit_3_Project_KelvenManuel_CS
+### Unit_3_Project_KelvenManuel_CS
 
  SHOE APP ( INVENTORY ) 
 ===========================
@@ -11,6 +11,8 @@ Contents
   1. [Design](#design)
   1. [Development](#development)
   1. [Evalution](#evaluation)
+  
+==============================================
 
  1.Planning
 -----------------
@@ -29,16 +31,22 @@ Contents
 7. Show the last time that the shoe was used;
 8. Every shoe can be edited and deleted.
 
+======================================================
+
  2.Design 
 -----------------------
 
 
+==========================================================
 
 3.Development 
 -----------------------
 
 4.Evaluation 
 -----------------------
+
+
+=============================================================
 
 ### What we can do to improve this program?
 

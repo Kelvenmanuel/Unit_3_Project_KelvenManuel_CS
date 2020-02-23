@@ -18,8 +18,10 @@ Contents
 ==============================================
 
 ### Definition of the problem 
-In 2020. A business Man, called irving fang, is running a shoes company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. They have a significant number of supply but they do not know how to manage it. 
+In 2020. A business Man, called irving fang, is running a shoes company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. Mr. Irving has a significant number of supply, and does not know how to manage it. Besides, He presents a variety of brands with diffeent shoe colorway, prices and volatility. 
+
 ### Proposed Solution 
+Create an Application of software/App using the program language ```py PYTHON```, one of the top-picked programming languages of most universities and industries. The purpose of this application is to assist the user to manage their shoe supply. Where this App will meet the needs of the company, organizing the shoe in a set of criteria given by the user(Mr. Irving), such as brand, colorway, and quantity. Moreover, this app will allow the user to give the price of the shoe, edit their data and delete unnecessary or outdated information about shoes.  
 
 ### Success criteria
 
@@ -37,8 +39,12 @@ In 2020. A business Man, called irving fang, is running a shoes company. The com
  2.Design 
 ==============================================
 
+### python
+```.py PYTHON ```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.[1]
 
+### Why wI decided to use python
 
+Python is one of the most used/appreciated programming language by developers and software engineers. A big number of applications and webs that we use/enjoy today are because of Python. Python presents a versability and flexibility. Besides, abundant libraries, a collection of modules, and extensions that allow developers to create efficient programs or apps. Additionally, python can do complex tasks and possess a clean syntax and it is easy to learn. It is recommendable for Beginners and experienced programmers. It can connect to database systems, and also, read and modify files.
 
 3.Development 
 ==============================================
@@ -51,6 +57,8 @@ In 2020. A business Man, called irving fang, is running a shoes company. The com
 ### What we can do to improve this program?
 
 ### References 
+[1]. “Python (Programming Language).” Wikipedia, Wikimedia Foundation, 23 Feb. 2020, en.wikipedia.org/wiki/Python_(programming_language).
+
 
 
 

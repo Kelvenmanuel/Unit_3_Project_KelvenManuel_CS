@@ -18,7 +18,7 @@ Contents
 ==============================================
 
 ### Definition of the problem 
-
+In 2020. A business Man, called irving fang, is running a shoes company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. They have a significant number of supply but they do not know how to manage it. 
 ### Proposed Solution 
 
 ### Success criteria

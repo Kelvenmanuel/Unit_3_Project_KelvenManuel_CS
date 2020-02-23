@@ -14,5 +14,3 @@ pyplot.xlabel('the x axis')
 pyplot.ylabel("the y axis")
 pyplot.show()
 ```
-
-![photos](Screen Shot 2020-02-23 at 14.48.47.png)

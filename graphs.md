@@ -15,4 +15,4 @@ pyplot.ylabel("the y axis")
 pyplot.show()
 ```
 
-![CarRental](Screen Shot 2020-02-23 at 14.48.47)
+![photos](Screen Shot 2020-02-23 at 14.48.47.png)

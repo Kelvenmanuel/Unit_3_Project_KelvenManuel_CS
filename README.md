@@ -1,4 +1,4 @@
-# Unit_3_Project_KelvenManuel_CS
+### Unit_3_Project_KelvenManuel_CS
 
  SHOE APP ( INVENTORY ) 
 ===========================
@@ -47,6 +47,11 @@ Create an Application of software/App using the program language ```PYTHON```, o
 Python is one of the most used/appreciated programming language by developers and software engineers. A big number of applications and webs that we use/enjoy today are because of Python. Python presents a versability and flexibility. Besides, abundant libraries, a collection of modules, and extensions that allow developers to create efficient programs or apps. Additionally, python can do complex tasks and possess a clean syntax and it is easy to learn. It is recommendable for Beginners and experienced programmers. It can connect to database systems, and also, read and modify files.
 
 # T.E.L.O.S 
+feasibility study:
+
+The user will be no longer unable to manage its supply of shoes. The App will be created to help the user to manage his shoe inventory. Using Python will be possible to create a program that will meet all the necessities of the user. That is, it will achieve all the items in the success criteria. The program will have a simple process of installation, without a large cust for the user. For the developer the cust for creating the program is manageable and this program will bring better benefits for the user.  The developer is using one of the most used programming languages that present no illegal issues, and there will be no divergence between the new system and any regulations. As I mentioned before the app will bring a large benefit for the user, and providing that is his first App the user should have or learn basic computational skills to manage it, but there is a certain question if the app can be used offline. Besides this, the work will certainly be automatized/improved. Considering the time that might be needed to finish the app, going through all the steps, the program can be done in time. 
+
+
 
 3.Development 
 ==============================================
@@ -88,7 +93,10 @@ This code above is and exemple of python application. Where we successfully crea
 ### What we can do to improve this program?
 
 ### References 
+
 [1]. “Python (Programming Language).” Wikipedia, Wikimedia Foundation, 23 Feb. 2020, en.wikipedia.org/wiki/Python_(programming_language).
+[2]. “TELOS (Project Management).” Wikipedia, Wikimedia Foundation, 20 Oct. 2016, en.wikipedia.org/wiki/TELOS_(project_management).
+[3]. Jun, Lisa Jo Rudy25, et al. “Can We Really Do It? How to Conduct a TELOS Feasibility Study.” Business Envato Tuts , 25 June 2014, business.tutsplus.com/articles/can-we-really-do-it-how-to-conduct-a-telos-feasibility-study--cms-21442.
 
 # Record of Tasks 
  

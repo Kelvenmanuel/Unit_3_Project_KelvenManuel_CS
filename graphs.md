@@ -1,3 +1,4 @@
+```.py
 from matplotlib import pyplot
 x = []
 y = []
@@ -12,5 +13,6 @@ pyplot.plot(x, y)
 pyplot.xlabel('the x axis')
 pyplot.ylabel("the y axis")
 pyplot.show()
+```
 
 ![CarRental](Screen Shot 2020-02-23 at 14.48.47)

@@ -1,1 +1,40 @@
-# this is the file for all the list exercices 
+# ① Even Indices
+number = []
+for n in input():
+    number.append(n)
+print(number[0], number[2])
+
+# ② Even Elements
+num = []
+even = []
+for i in input():
+    num.append(i)
+    if i % 2 == 0:
+        even.append(num)
+print(even)
+
+# ③ Greater Than Previous
+num2 = []
+greater = []
+
+for a in input():
+    num2.append(a)
+
+
+# ④ Neighbors of the same sign
+num3 = []
+sign = []
+
+for b in input():
+    num3.append(b)
+print()
+
+# ⑤ Greater than neighbours
+num4 = []
+gneigh = []
+
+for c in input():
+    num4.append(c)
+print()
+
+

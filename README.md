@@ -103,7 +103,9 @@ This code above is and exemple of python application. Where we successfully crea
 ### References 
 
 [1]. “Python (Programming Language).” Wikipedia, Wikimedia Foundation, 23 Feb. 2020, en.wikipedia.org/wiki/Python_(programming_language).
+
 [2]. Jun, Lisa Jo Rudy25, et al. “Can We Really Do It? How to Conduct a TELOS Feasibility Study.” Business Envato Tuts , 25 June 2014, business.tutsplus.com/articles/can-we-really-do-it-how-to-conduct-a-telos-feasibility-study--cms-21442.
+
 [3]. “TELOS (Project Management).” Wikipedia, Wikimedia Foundation, 20 Oct. 2016, en.wikipedia.org/wiki/TELOS_(project_management).
 
 # Record of Tasks 

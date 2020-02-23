@@ -4,7 +4,7 @@
 ===========================
 
 A SHOE Inventoy APP created using Python
-
+---------------------------------------------------------
 # Record of Tasks 
  
 This table shows the 5 phases of the design: Planning, Design, Development, Test, and Implementation. 
@@ -63,6 +63,8 @@ Create an Application of software/App using the program language ```PYTHON```, o
 ### Why wI decided to use python
 
 Python is one of the most used/appreciated programming language by developers and software engineers. A big number of applications and webs that we use/enjoy today are because of Python. Python presents a versability and flexibility. Besides, abundant libraries, a collection of modules, and extensions that allow developers to create efficient programs or apps. Additionally, python can do complex tasks and possess a clean syntax and it is easy to learn. It is recommendable for Beginners and experienced programmers. It can connect to database systems, and also, read and modify files.
+
+# T.E.L.O.S 
 
 3.Development 
 ==============================================

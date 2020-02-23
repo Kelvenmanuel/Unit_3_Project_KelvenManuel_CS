@@ -5,6 +5,24 @@
 
 A SHOE Inventoy APP created using Python
 
+# Record of Tasks 
+ 
+This table shows the 5 phases of the design: Planning, Design, Development, Test, and Implementation. 
+
+| Task nº | Planned actions          |     Expected outcome            |   Time   |        Target 0pmpletion      | Criteria |
+|---------|--------------------------|---------------------------------|----------|-------------------------------|----------|
+|   1     | Planning:                | Acquire the first               | 15 min   | Did not come with clear       |     A    |
+|         | Meet with the client for | requirements of the client      |          | questions, nor did the client |          |
+|         | the first conversation   |                                 |          | have clear requirements       |          |
+|   2     | Development: Create      | A phyton scrip that allows      |  1 hour  | Developed functions such as   |          |
+|         | a secure login system    | encrypted login of a user       |          | "log in" & "register", using  |     A    |
+|         | using phyton             |                                 |          | an encrypted password system. |          |
+|         |                          |                                 |          | Need to further inquire as to |          | |         |                          |                                 |          | what "exit" entails           |          | 
+|  3      | Planning:                | The success criteria for the    |  20 min  | Clear questions for the       |    A     |
+|         | Meet with client for the | Iventory or Shoe App, details   |          | client, developer proposals   |          |
+|         | 2nd conversation         | about the design & sytem of     |          | for the App                   |          | |         |                          | the App                         |          |                               |          | |         |                          |                                 |          |                               |          |
+|         |                          |                                 |          |                               |          |
+
 Contents
 ==============================================
   1. [Planning](#planning)
@@ -49,26 +67,33 @@ Python is one of the most used/appreciated programming language by developers an
 3.Development 
 ==============================================
 
+Python Appication
+```.py
+ser = {'username': None, 'password-hash': None, 'Salt': None}
 
-# Record of Tasks 
- 
-This table shows the 5 phases of the design: Planning, Design, Development, Test, and Implementation. 
+print("1 - Register ")
+print("2 - Log in ")
+print("3 - Exit")
+opt = 10
+while opt > 3:
+    opt = int(input("Enter option (1, 2, 3) "))
 
-| Task nº | Planned actions          |     Expected outcome            |   Time   |        Target 0pmpletion      | Criteria |
-|---------|--------------------------|---------------------------------|----------|-------------------------------|----------|
-|   1     | Planning:                | Acquire the first               | 15 min   | Did not come with clear       |     A    |
-|         | Meet with the client for | requirements of the client      |          | questions, nor did the client |          |
-|         | the first conversation   |                                 |          | have clear requirements       |          |
-|   2     | Development: Create      | A phyton scrip that allows      |  1 hour  | Developed functions such as   |          |
-|         | a secure login system    | encrypted login of a user       |          | "log in" & "register", using  |     A    |
-|         | using phyton             |                                 |          | an encrypted password system. |          |
-|         |                          |                                 |          | Need to further inquire as to |          | |         |                          |                                 |          | what "exit" entails           |          | 
-|  3      | Planning:                | The success criteria for the    |  20 min  | Clear questions for the       |    A     |
-|         | Meet with client for the | Iventory or Shoe App, details   |          | client, developer proposals   |          |
-|         | 2nd conversation         | about the design & sytem of     |          | for the App                   |          | |         |                          | the App                         |          |                               |          | |         |                          |                                 |          |                               |          |
-|         |                          |                                 |          |                               |          |
+# Registration
 
+username = input("enter username: ")
 
+confirmed = False
+while not confirmed:
+    password = input('Enter password: ')
+    c_password = input('confirm your password: ')
+
+    # confirmed = True if password == c_password else False
+    if password == c_password:
+        confirmed = True
+
+print("Password confirmed")
+```
+This code above is and exemple of python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed.This is important because is one of the first steps for the inventory  
 
 
 4.Evaluation 

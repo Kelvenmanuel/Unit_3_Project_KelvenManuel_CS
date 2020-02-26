@@ -134,5 +134,4 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         | of the interface for the | inputs, labels and buttons      |          | ask for feedback to the       |          |
 |         | application              |  within the app                 |          | client                        |          |
 |         |                          |                                 |          |                               |          |
-|---------|--------------------------|---------------------------------|----------|-------------------------------|----------|
 

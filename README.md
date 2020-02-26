@@ -40,7 +40,7 @@ Create an Application of software/App using the program language ```PYTHON```, o
 ==============================================
 
 ### python
-```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.[1]
+```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.( Python wikipedia )
 
 ### Why I decided to use python
 
@@ -49,17 +49,21 @@ Python is one of the most used/appreciated programming language by developers an
 # T.E.L.O.S 
 feasibility study:
 
-[2]. A feasibility study, in general, is a tool for determining whether you have what it takes to undertake a change or new project. In business, most managers make use of a particular feasibility tool called TELOS, an acronym for the five key areas that you need to consider in your study:
+  A feasibility study, in general, is a tool for determining whether you have what it takes to undertake a change or new project. In business, most managers make use of a particular feasibility tool called TELOS, an acronym for the five key areas that you need to consider in your study(business.tutsplus.com):
 
 T - Technical - Is the project technically possible?
 E - Economic - Can the project be afforded? Will it increase profit?
 L - Legal - Is the project legal?
 O - Operational - How will the current operations support the change?
-S - Scheduling - Can the project be done in time? [3]
+S - Scheduling - Can the project be done in time? 
+(Wiki/TELOS)
 
 The user will be no longer unable to manage its supply of shoes. The App will be created to help the user to manage his shoe inventory. Using Python will be possible to create a program that will meet all the necessities of the user. That is, it will achieve all the items in the success criteria. The program will have a simple process of installation, without a large cust for the user. For the developer the cust for creating the program is manageable and this program will bring better benefits for the user.  The developer is using one of the most used programming languages that present no illegal issues, and there will be no divergence between the new system and any regulations. As I mentioned before the app will bring a large benefit for the user, and providing that is his first App the user should have or learn basic computational skills to manage it, but there is a certain question if the app can be used offline. Besides this, the work will certainly be automatized/improved. Considering the time that might be needed to finish the app, going through all the steps, the program can be done in time. 
 
+### Qt Design
+Qt Designer is Qt's tool for designing and building graphical user interfaces (GUIs) from Qt components. You can compose and customize your widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and test them using different styles and resolutions.(designer-manual.html)
 
+The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this a right tool.   
 
 3.Development 
 ==============================================
@@ -102,11 +106,13 @@ This code above is and exemple of python application. Where we successfully crea
 
 ### References 
 
-[1]. “Python (Programming Language).” Wikipedia, Wikimedia Foundation, 23 Feb. 2020, en.wikipedia.org/wiki/Python_(programming_language).
+https://en.wikipedia.org/wiki/Python_(programming_language)
 
-[2]. Jun, Lisa Jo Rudy25, et al. “Can We Really Do It? How to Conduct a TELOS Feasibility Study.” Business Envato Tuts , 25 June 2014, business.tutsplus.com/articles/can-we-really-do-it-how-to-conduct-a-telos-feasibility-study--cms-21442.
+https://business.tutsplus.com/articles/can-we-really-do-it-how-to-conduct-a-telos-feasibility-study--cms-21442
 
-[3]. “TELOS (Project Management).” Wikipedia, Wikimedia Foundation, 20 Oct. 2016, en.wikipedia.org/wiki/TELOS_(project_management).
+https://en.wikipedia.org/wiki/TELOS_(project_management)
+
+https://doc.qt.io/archives/qt-4.8/designer-manual.html
 
 # Record of Tasks 
  

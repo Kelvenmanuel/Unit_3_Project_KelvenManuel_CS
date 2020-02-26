@@ -129,8 +129,10 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         |                          |                                 |          | Need to further inquire as to |          | |         |                          |                                 |          | what "exit" entails           |          | 
 |  3      | Planning:                | The success criteria for the    |  20 min  | Clear questions for the       |    A     |
 |         | Meet with client for the | Iventory or Shoe App, details   |          | client, developer proposals   |          |
-|         | 2nd conversation         | about the design & sytem of     |          | for the App                   |          | |         |                          | the App                         |          |                               |          | |  4      | Design:                  | A basic interface for the       | 30 min   | basid on some examples create |    A     |
-|         | Make a basic skecth draw | application, defining the basics|          | a sketch for the application  |          |
+|         | 2nd conversation         | about the design & sytem of     |          | for the App                   |          | |         |                          | the App                         |          |                               |          | 
+|         |                          |                                 |          |                               |          |
+|         | Design:                  | A basic interface for the       | 30 min   | basid on some examples create |    A     |
+|   4     | Make a basic skecth draw | application, defining the basics|          | a sketch for the application  |          |
 |         | of the interface for the | inputs, labels and buttons      |          | ask for feedback to the       |          |
 |         | application              |  within the app                 |          | client                        |          |
 |         |                          |                                 |          |                               |          |

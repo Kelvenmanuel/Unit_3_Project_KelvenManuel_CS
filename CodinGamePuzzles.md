@@ -23,7 +23,7 @@ while 1:
 
 
 II. The Descent
-```
+```.py
 import sys
 import math
 

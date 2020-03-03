@@ -55,3 +55,8 @@ while True:
 III. Power of Thor Episode 1
 Extra for HL and motivated SL:
 iV. There is no spoon - Episode 1
+
+
+Comments: 
+
+At the begin I quite did not get the purpose of the exercise and I did not understant how to code specifically. But I talked with alex and he explain me what I have to do and them I could code, is missing one code that I am kind of confuse but I will do more research about python coding and I expect to be done with it in the next few days. 

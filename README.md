@@ -94,11 +94,11 @@ while not confirmed:
 
 print("Password confirmed")
 ```
-This code above is and exemple of python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed.This is important because is one of the first steps for the inventory  
+This code above is and exemple of python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed.This is important because is one of the first steps for the inventory.  
 
 ### First Draw of the user interface (Skecth)
 
-Using the Qt design we could design the draw of the user interface for the Shoe. This proof our basic knowledge to manage the  Qt design and further we expect. the image below express the first draw of the user interface created by the developer and below the image there is the code in the python. Additionally, is necessary to create other program in python that would allow the user to run the program. However, it is necessary have this code for in the future running the interface. 
+ Using the Qt design we could design the draw of the user interface for the Shoe. This proof our basic knowledge to manage the  Qt design and further we expect. the image below express the first draw of the user interface created by the developer and below the image there is the code in the python. Additionally, is necessary to create other program in python that would allow the user to run the program. However, it is necessary have this code for in the future we can run the interface. 
 
 ![sketch](firstsketch.png)
 

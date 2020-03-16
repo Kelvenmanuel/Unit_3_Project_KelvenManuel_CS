@@ -96,6 +96,82 @@ print("Password confirmed")
 ```
 This code above is and exemple of python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed.This is important because is one of the first steps for the inventory  
 
+### First Draw of the user interface (Skecth)
+
+
+
+```.py
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'userface1.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QDialog
+
+
+class userface1Form(object):
+    def setupUi(self, userface1):
+        userface1.setObjectName("userface1")
+        userface1.resize(366, 441)
+        userface1.setStyleSheet(
+            "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
+            "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.layoutWidget = QtWidgets.QWidget(userface1)
+        self.layoutWidget.setGeometry(QtCore.QRect(40, 50, 261, 341))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.layoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label1 = QtWidgets.QLabel(self.layoutWidget)
+        self.label1.setMaximumSize(QtCore.QSize(200, 200))
+        self.label1.setSizeIncrement(QtCore.QSize(100, 70))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label1.setFont(font)
+        self.label1.setObjectName("label1")
+        self.verticalLayout.addWidget(self.label1)
+        self.label2 = QtWidgets.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label2.setFont(font)
+        self.label2.setObjectName("label2")
+        self.verticalLayout.addWidget(self.label2)
+        self.button1 = QtWidgets.QPushButton(self.layoutWidget)
+        self.button1.setMinimumSize(QtCore.QSize(50, 25))
+        self.button1.setMaximumSize(QtCore.QSize(500, 50))
+        self.button1.setStyleSheet(
+            "color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.994, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.button1.setObjectName("button1")
+        self.verticalLayout.addWidget(self.button1)
+        self.button2 = QtWidgets.QPushButton(self.layoutWidget)
+        self.button2.setMinimumSize(QtCore.QSize(100, 50))
+        self.button2.setStyleSheet(
+            "color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.994, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.button2.setObjectName("button2")
+        self.verticalLayout.addWidget(self.button2)
+        self.button3 = QtWidgets.QPushButton(self.layoutWidget)
+        self.button3.setMinimumSize(QtCore.QSize(100, 50))
+        self.button3.setStyleSheet(
+            "color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.994, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.button3.setObjectName("button3")
+        self.verticalLayout.addWidget(self.button3)
+
+        self.retranslateUi(userface1)
+        QtCore.QMetaObject.connectSlotsByName(userface1)
+
+    def retranslateUi(self, userface1):
+        _translate = QtCore.QCoreApplication.translate
+        userface1.setWindowTitle(_translate("userface1", "Dialog"))
+        self.label1.setText(_translate("userface1", "Welcome"))
+        self.label2.setText(_translate("userface1", "Shoe App"))
+        self.button1.setText(_translate("userface1", "Registration "))
+        self.button2.setText(_translate("userface1", "Login"))
+        self.button3.setText(_translate("userface1", "Exit "))
+```
 
 4.Evaluation 
 ==============================================

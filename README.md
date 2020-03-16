@@ -218,6 +218,7 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         | Meet with client for the |first draw for the user interface|          | a draw. Present the sketh for |          |
 |         | 3rd conversation         |client give arguments in the way |          | cleint view                   |          |
 |         |                          |that developer can improve the   |          |                               |          |
-|         |                          |the user interface               |          |                               |          |     
+|         |                          |the user interface               |          |                               |          |
+
 
 

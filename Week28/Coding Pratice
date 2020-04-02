@@ -1,0 +1,25 @@
+Question 1:
+Write a Python program that accepts a string and calculate the number of digits and letters. 
+
+
+```.py
+#Write a Python program that accepts a string and calculate the number of digits and letters.
+countingnum = 0
+countinglet = 0
+
+word = [chr for chr in input()]
+for char in word:
+    if char.isdigit():
+            countingnum+=1
+    if char.isalpha():
+            countinglet+=1
+
+print("Letters", countinglet)
+print("Digits", countingnum)
+```
+
+Question 2:
+With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that i is an integral number between 1 and n (both included). The program should print the dictionary.
+
+```.py
+```

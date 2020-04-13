@@ -18,3 +18,12 @@ text2.close()
 question 2: Write a Python program that generates random passwords of length 20. The user provides how many passwords should be generated
 
 ```.py 
+import random
+import string
+
+n = int(input("Enter a number "))
+for i in range(1, n+1):
+    password_character = string.ascii_lowercase + string.digits + string.punctuation
+    print("password " + str(i) + ": " + ''.join(random.choice(password_character) for a in range(20)))
+
+```

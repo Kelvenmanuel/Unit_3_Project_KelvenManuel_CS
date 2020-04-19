@@ -18,18 +18,18 @@ Contents
 ==============================================
 
 ### Definition of the problem 
-In 2020. A business Man, called irving fang, is running a shoes company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. Mr. Irving has a significant number of supply, and does not know how to manage it. Besides, He presents a variety of brands with diffeent shoe colorway, prices and volatility. 
+  In 2020. A business Man, called Irving fang, is running a shoe company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. Mr. Irving has a significant number of shoes and does not know how to manage it. Besides, He presents a variety of brands with different shoe colorways, prices, and volatility. 
 
 ### Proposed Solution 
-Create an Application of software/App using the program language ```PYTHON```, one of the top-picked programming languages of most universities and industries. The purpose of this application is to assist the user to manage their shoe supply. Where this App will meet the needs of the company, organizing the shoe in a set of criteria given by the user(Mr. Irving), such as brand, colorway, and quantity. Moreover, this app will allow the user to give the price of the shoe, edit their data and delete unnecessary or outdated information about shoes.  
+   Create an Application of software/App using the programming language ```PYTHON```, one of the top-picked programming languages of most universities and industries. The purpose of this application is to assist the user to manage their shoe supply. Where this App will meet the needs of the company, organizing the shoe in a set of criteria given by the user(Mr. Irving), such as brand, colorway, and quantity. Moreover, this app will allow the user to give the price of the shoe, edit their data and delete unnecessary or outdated information about shoes.  
 
 ### Success criteria
 
 1. Identify the brand and the country that produced the Shoe;
-2. Information about how many shoe the iventory has;
+2. Information about how many shoes the inventory has;
 3. Identify the colorway of every shoe; 
 4. Recognize/provide the current price, past and retail price of every shoe;
-5. Display the volarity of every shoe;
+5. Display the volatility of every shoe;
 6. Provide the amount of sales that every shoe has;
 7. Show the last time that the shoe was used;
 8. Every shoe can be edited and deleted.
@@ -61,9 +61,11 @@ S - Scheduling - Can the project be done in time?
 The user will be no longer unable to manage its supply of shoes. The App will be created to help the user to manage his shoe inventory. Using Python will be possible to create a program that will meet all the necessities of the user. That is, it will achieve all the items in the success criteria. The program will have a simple process of installation, without a large cust for the user. For the developer the cust for creating the program is manageable and this program will bring better benefits for the user.  The developer is using one of the most used programming languages that present no illegal issues, and there will be no divergence between the new system and any regulations. As I mentioned before the app will bring a large benefit for the user, and providing that is his first App the user should have or learn basic computational skills to manage it, but there is a certain question if the app can be used offline. Besides this, the work will certainly be automatized/improved. Considering the time that might be needed to finish the app, going through all the steps, the program can be done in time. 
 
 ### Qt Design
-Qt Designer is Qt's tool for designing and building graphical user interfaces (GUIs) from Qt components. You can compose and customize your widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and test them using different styles and resolutions.(designer-manual.html)
+Qt Designer is Qt's tool for designing and building graphical user interfaces (GUIs) from Qt components. You can compose and customize your widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and test them using different styles and resolutions. (designer-manual.html)
 
-The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this a right tool.   
+The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this the right tool.   
+
+
 
 3.Development 
 ==============================================
@@ -94,11 +96,11 @@ while not confirmed:
 
 print("Password confirmed")
 ```
-This code above is and exemple of python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed.This is important because is one of the first steps for the inventory.  
+This code above is an example of a python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed. This is important because is one of the first steps for the inventory.  
 
 ### First Draw of the user interface (Skecth)
 
- Using the Qt design we could design the draw of the user interface for the Shoe. This proof our basic knowledge to manage the  Qt design and further we expect. the image below express the first draw of the user interface created by the developer and below the image there is the code in the python. Additionally, is necessary to create other program in python that would allow the user to run the program. However, it is necessary have this code for in the future we can run the interface. 
+ Using the Qt design we could design the draw of the user interface for the Shoe App. This proves our basic knowledge to manage the  Qt design and further we expect to create the App. the image below expresses the first draws of the user interface created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. Additionally, is necessary to create other programs in python that would allow the user to run the program.  
 
 ![planning](firste.png)
 
@@ -123,6 +125,8 @@ class userface1Form(object):
             "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
             "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
 ```
+
+
 
 4.Evaluation 
 ==============================================

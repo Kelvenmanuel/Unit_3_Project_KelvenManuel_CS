@@ -100,7 +100,7 @@ This code above is and exemple of python application. Where we successfully crea
 
  Using the Qt design we could design the draw of the user interface for the Shoe. This proof our basic knowledge to manage the  Qt design and further we expect. the image below express the first draw of the user interface created by the developer and below the image there is the code in the python. Additionally, is necessary to create other program in python that would allow the user to run the program. However, it is necessary have this code for in the future we can run the interface. 
 
-![planning]()
+![planning](first.png)
 
 ```.py
 # -*- coding: utf-8 -*-

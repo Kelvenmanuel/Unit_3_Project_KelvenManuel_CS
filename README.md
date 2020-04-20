@@ -68,10 +68,12 @@ The Qt design is the tool that I am going to use to design the user interface fo
 ### Basic draw of a user face ( sketch of the App )
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design, platform chosen by reasons already mentioned above. Working with Pycharm (python language) in the end we expect to have all the windows where in the future we will connect and run them using Py language. 
+
 ![planning](second.jpg)
 
 3.Development 
 ==============================================
+
 
 Python Appication
 ```.py
@@ -101,10 +103,8 @@ print("Password confirmed")
 ```
 This code above is an example of a python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed. This is important because is one of the first steps for the inventory.  
 
-### First Draw of the user interface (Skecth)
-
- Using the Qt design we could design the draw of the user interface for the Shoe App. This proves our basic knowledge to manage the  Qt design and further we expect to create the App. the image below expresses the first draws of the user interface created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. Additionally, is necessary to create other programs in python that would allow the user to run the program.  
-
+### Windows created with QT design and python Language T
+ Using the Qt design we could design user interfaces for the Shoe App. he image below show the user interfaces created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. 
 ![planning](firste.png)
 
 ```.py
@@ -128,6 +128,7 @@ class userface1Form(object):
             "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
             "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
 ```
+
 
 
 

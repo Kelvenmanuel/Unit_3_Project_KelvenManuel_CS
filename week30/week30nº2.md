@@ -13,3 +13,47 @@ The default tyre size for a mountain bike is 27.5. The default front fork is 100
 
 
 In the main application there is a list that stores the objects of bicycles and mountain bikes created.
+
+```.py
+import math
+
+class bicycle:
+    def __int__(self, size, chain=11, tire_size=29):
+        self.size = size
+        self.chain = chain
+        self.tire_size = tire_size
+
+    def post_initializer(self):
+        circumference = 2+math.pi*self.tire_size/2
+        print(circumference)
+
+    def spares(self):
+        print(self.chain, self.tire_size)
+
+    def add(self):
+        bicycle.number += 1
+        print(bicycle.number)
+
+M = bicycle("M", chain=11, tire_size=29)
+M.post_initializer()
+M.spares()
+M.add()
+
+class mountainbike(bicycle):
+    number_2 = 0
+    def __int__(self, size, chain, tire_size=29, frontfork=100, rearshock=80):
+        super().__int__(size, chain, tire_size)
+        self.frontfork = frontfork
+        self.rearshock = rearshock
+
+    def add2(self):
+        mountainbike.number_2 += 1
+        print(mountainbike.number_2)
+
+
+A = bicycle("M", chain=11, tire_size=27., frontfork=100, rearshock=80)
+A.post_initializer()
+A.spares()
+A.add2()
+
+```

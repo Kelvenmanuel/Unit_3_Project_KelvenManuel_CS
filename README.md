@@ -68,7 +68,7 @@ The Qt design is the tool that I am going to use to design the user interface fo
 ### Basic draw of a user face ( sketch of the App )
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design, platform chosen by reasons already mentioned above. Working with Pycharm (python language) in the end we expect to have all the windows where in the future we will connect and run them using Py language. 
-![planning](second.png)
+![planning](second.jpg)
 
 3.Development 
 ==============================================

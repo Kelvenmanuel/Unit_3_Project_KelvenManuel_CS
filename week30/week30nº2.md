@@ -34,10 +34,10 @@ class bicycle:
         bicycle.number += 1
         print(bicycle.number)
 
-M = bicycle("M", chain=11, tire_size=29)
-M.post_initializer()
-M.spares()
-M.add()
+A = bicycle("M", chain=11, tire_size=29)
+A.post_initializer()
+A.spares()
+A.add()
 
 class mountainbike(bicycle):
     number_2 = 0
@@ -51,9 +51,9 @@ class mountainbike(bicycle):
         print(mountainbike.number_2)
 
 
-A = bicycle("M", chain=11, tire_size=27., frontfork=100, rearshock=80)
-A.post_initializer()
-A.spares()
-A.add2()
+B = bicycle("M", chain=11, tire_size=27., frontfork=100, rearshock=80)
+B.post_initializer()
+B.spares()
+B.add2()
 
 ```

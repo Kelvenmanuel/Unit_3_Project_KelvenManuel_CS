@@ -65,7 +65,10 @@ Qt Designer is Qt's tool for designing and building graphical user interfaces (G
 
 The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this the right tool.   
 
+### Basic draw of a user face ( sketch of the App )
 
+These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design, platform chosen by reasons already mentioned above. Working with Pycharm (python language) in the end we expect to have all the windows where in the future we will connect and run them using Py language. 
+![planning](second.png)
 
 3.Development 
 ==============================================

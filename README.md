@@ -103,6 +103,49 @@ print("Password confirmed")
 ```
 This code above is an example of a python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed. This is important because is one of the first steps for the inventory.  
 
+### Process Of Creating the App 
+
+
+
+1. Import windows to App runner 
+```.py
+from ShoeAppfinall.firstface import Ui_firstfaceForm as first
+from ShoeAppfinall.Registration import Ui_RegistrationForm as reg
+from ShoeAppfinall.LogIn import Ui_loginForm as log
+from ShoeAppfinall.loginRegistration import hash_password
+from ShoeAppfinall.userface import Ui_userfaceForm as user
+from ShoeAppfinall.Mainmenu import Ui_MainmenuForm as main
+from ShoeAppfinall.App2 import ListofshoesA, PopularbrandsA, SportshoesA, SocialshoesA, RentedshoesA
+```
+2. Divide windows in classes and work on them
+```.py
+class firstfaceApp(QMainWindow, first):
+    def __init__(self, parent=None):
+        super(firstfaceApp, self).__init__(parent)
+        self.setupUi(self)
+
+        self.registration.clicked.connect(self.regA)
+        self.login.clicked.connect(self.logA)
+        self.login.clicked.connect(self.userf)
+        self.exit.clicked.connect(self.exitApp)
+
+    def regA(self):
+        regVar = RegistrationApp(self)
+        regVar.show()
+```
+3. examples of button behavior 
+```.py
+    def load_data(self):
+        data = []
+        with open('database.csv') as listdatabase:
+            file = csv.reader(listdatabase, delimiter=",")
+            for a, row in enumerate(file):
+                for b, col in enumerate(row):
+                    data.append([a, b, col])
+                    self.tableWidget.setItem(a, b, QTableWidgetItem(col))
+        return data
+```
+
 ### Windows created with QT design and python Language T
  Using the Qt design we could design user interfaces for the Shoe App. he image below show the user interfaces created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. 
 ![planning](firste.png)

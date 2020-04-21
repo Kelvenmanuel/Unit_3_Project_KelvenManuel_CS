@@ -19,6 +19,7 @@ import math
 
 class bicycle:
     def __int__(self, size, chain=11, tire_size=29):
+        bicycle.number += 1
         self.size = size
         self.chain = chain
         self.tire_size = tire_size
@@ -31,7 +32,6 @@ class bicycle:
         print(self.chain, self.tire_size)
 
     def add(self):
-        bicycle.number += 1
         print(bicycle.number)
 
 A = bicycle("M", chain=11, tire_size=29)

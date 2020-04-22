@@ -65,11 +65,29 @@ Qt Designer is Qt's tool for designing and building graphical user interfaces (G
 
 The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this the right tool.   
 
-### Basic draw of a user face ( sketch of the App )
+### 1 Step drawing the windows - Basic draw of a user face ( sketch of the App )
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design, platform chosen by reasons already mentioned above. Working with Pycharm (python language) in the end we expect to have all the windows where in the future we will connect and run them using Py language. 
-
 ![planning](second.jpg)
+
+### 2 Step 
+ Using the Qt design we could design user interfaces for the Shoe App. he image below show the user interfaces created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. 
+![planning](firste.png)
+
+```.py
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QDialog
+
+class userface1Form(object):
+    def setupUi(self, userface1):
+        userface1.setObjectName("userface1")
+        userface1.resize(366, 441)
+        userface1.setStyleSheet(
+            "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
+            "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+```
+
+
 
 3.Development 
 ==============================================
@@ -146,31 +164,7 @@ class firstfaceApp(QMainWindow, first):
         return data
 ```
 
-### Windows created with QT design and python Language T
- Using the Qt design we could design user interfaces for the Shoe App. he image below show the user interfaces created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. 
-![planning](firste.png)
 
-```.py
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'userface1.ui'
-#
-# Created by: PyQt5 UI code generator 5.14.1
-#
-# WARNING! All changes made in this file will be lost!
-
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QDialog
-
-
-class userface1Form(object):
-    def setupUi(self, userface1):
-        userface1.setObjectName("userface1")
-        userface1.resize(366, 441)
-        userface1.setStyleSheet(
-            "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
-            "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
-```
 
 
 

@@ -164,7 +164,18 @@ class firstfaceApp(QMainWindow, first):
         return data
 ```
 
-
+```.py 
+    def try_login(self):
+        #self.LogIn.clicked.connect(self.userf)
+        user_name = self.lineEdit.text()
+        password = self.lineEdit_2.text()
+        print("Hashing", user_name + password)
+        correct_password = user_name + password
+        with open('Output.txt', "r") as output_file:
+            for stored_password in output_file:
+                if verify_password(stored_password, correct_password):
+                    self.LogIn.clicked.connect(self.userf)
+```
 
 
 
@@ -230,6 +241,9 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         | Registration and Login   | in pycharm                      |          | registration using Hash codes |          |
 |         | system                   | Registration and the Login      |          |                               |          |
 |         |                          | system of the App               |          |                               |          |
-|         |                          |                                 |          |                               |          |
-
-
+| 10      | Development              |                                 | 45 min   | come with a basic code        | C        |
+|         | Write the code a code    | The user will be able to        |          | that will be used as model    |          |
+|         | that allow the user to   | edit the table                  |          | make the correct changes in   |          |
+|         | input change, to delete, | input new shoes or delete       |          | the code and run it with      |          |
+|         | to edit the tables       | them, Edit data and save it     |          | the App                       |          |
+|         | in the inventory         |                                 |          |                               |          |

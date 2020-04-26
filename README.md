@@ -123,12 +123,18 @@ This code above is an example of a python application. Where we successfully cre
 
 ### Process Of Creating the App 
 
-
+```.py
+class Ui_firstfaceForm(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(457, 527)
+```
 
 1. Import windows to App runner 
+Within the pycharm we were able convert all the windows that we create in the Qt design in to python code(by writting in the terminal ```.py pyuic5 ..... -o .....py ```), then using the first line 
 ```.py
 from ShoeAppfinall.firstface import Ui_firstfaceForm as first
-from ShoeAppfinall.Registration import Ui_RegistrationForm as reg
+from ShoeAppfinall.Registration import Ui_RegistrationForm as reg                                                
 from ShoeAppfinall.LogIn import Ui_loginForm as log
 from ShoeAppfinall.loginRegistration import hash_password
 from ShoeAppfinall.userface import Ui_userfaceForm as user
@@ -141,15 +147,6 @@ class firstfaceApp(QMainWindow, first):
     def __init__(self, parent=None):
         super(firstfaceApp, self).__init__(parent)
         self.setupUi(self)
-
-        self.registration.clicked.connect(self.regA)
-        self.login.clicked.connect(self.logA)
-        self.login.clicked.connect(self.userf)
-        self.exit.clicked.connect(self.exitApp)
-
-    def regA(self):
-        regVar = RegistrationApp(self)
-        regVar.show()
 ```
 3. examples of button behavior 
 ```.py

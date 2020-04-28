@@ -2,7 +2,7 @@
 
  SHOE APP ( INVENTORY ) 
 ===========================
-![planning](imagem.png)
+![planning](imagem.jpeg)
 A SHOE Inventoy APP created using Python
 
 

@@ -60,14 +60,15 @@ The user will be no longer unable to manage its supply of shoes. The App will be
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design. The platform was chosen by reasons that will be mentioned below ( in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
 ![planning](second.jpg)
-### FIG n01
+# fig 01 
 
-### 2 Step 
+
+### 2 Step Convert into python programming language and run them 
  With Qt design, we designed user interfaces for the App. After that only left to convert the QT windows into python code then we will be able to run them and connect all of them. 
 To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
  The images below show the windows created for the App, already running in python. Also, below the image, there is a stretch of the code that expresses the windows in python language.  
 ![planning](firste.png)
-### FIG n02
+# fig 02
 
 ```.py
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -98,18 +99,19 @@ Qt Designer is Qt's tool for designing and building graphical user interfaces (G
 
 The Qt design is the tool that will be used to design the user interface (windows) for the App. It will be used because is easy to manage,  and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the project QT Design is the right tool.
 
-### Coding and Running the App in Python ( Pycharm )
+# Coding and Running the App in Python ( Pycharm )
+--------------------------------------------------------------------
 
 For the development of the App. And following the success criteria. I have broken down the problems into smaller steps or tasks. I had always the user preferences into account, so I drew the steps according to user wishes and  Necessities. Therefore I come out with 2 Sections for the Program 
 
-Section A: 
+### Section A: 
 ------------
 
 Mostly draws and designs for the App ( Tool - QT design )
 Convert the UI windows in Python Language 
 This section was already complete and pieces of evidence are shown above in the Design ( Fig 01 & Fig 02 ) 
 
-Section B: 
+### Section B: 
 ------------
 
 Mostly Coding and running the App 

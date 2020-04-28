@@ -60,7 +60,7 @@ The user will be no longer unable to manage its supply of shoes. The App will be
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design. The platform was chosen by reasons that will be mentioned below ( in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
 ![planning](second.jpg)
-# fig 01 
+### fig 01 
 
 
 ### 2 Step Convert into python programming language and run them 
@@ -68,7 +68,7 @@ These are basic drawings of the windows/user faces intended for the App. Having 
 To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
  The images below show the windows created for the App, already running in python. Also, below the image, there is a stretch of the code that expresses the windows in python language.  
 ![planning](firste.png)
-# fig 02
+### fig 02
 
 ```.py
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -102,29 +102,26 @@ The Qt design is the tool that will be used to design the user interface (window
 # Coding and Running the App in Python ( Pycharm )
 --------------------------------------------------------------------
 
-For the development of the App. And following the success criteria. I have broken down the problems into smaller steps or tasks. I had always the user preferences into account, so I drew the steps according to user wishes and  Necessities. Therefore I come out with 2 Sections for the Program 
+For the development of the App. And following the success criteria. I have broken down the problems into smaller steps or tasks. I had always the user preferences into account, so I drew the steps according to user wishes and  Necessities. Then I come out with 2 Sections for the Program tasks solutions
 
 ### Section A: 
-------------
+----------------
 
 Mostly draws and designs for the App ( Tool - QT design )
 Convert the UI windows in Python Language 
 This section was already complete and pieces of evidence are shown above in the Design ( Fig 01 & Fig 02 ) 
 
 ### Section B: 
-------------
+-----------------
 
 Mostly Coding and running the App 
 Import windows and connect them ( button behavior ) 
 Now I will address this section: 
 
-### Process Of Creating the App 
-
-
- Import windows to App runner 
-
-
+1. Import the code of the UI Windows into a single python file.
+This python file will be our main file for running the App. Therefore, we will be allowed to create classes and input there  only necessary elements that we will code.
 ```.py
+# All the windows that we need to import to run the App completely.
 from ShoeAppfinall.firstface import Ui_firstfaceForm as first
 from ShoeAppfinall.Registration import Ui_RegistrationForm as reg                                                
 from ShoeAppfinall.LogIn import Ui_loginForm as log
@@ -133,26 +130,55 @@ from ShoeAppfinall.userface import Ui_userfaceForm as user
 from ShoeAppfinall.Mainmenu import Ui_MainmenuForm as main
 from ShoeAppfinall.App2 import ListofshoesA, PopularbrandsA, SportshoesA, SocialshoesA, RentedshoesA
 ```
-2. Divide windows in classes and work on them
+
+2. Utilize windows as classes and connect them 
+With the classes, we are showing only essential data to view. We are organizing the project into a practicable structure, going through the solution of the problems in small tasks. Additionally, using classes the structure of the program is described and gives a better understanding of the program.
 ```.py
+# Class of the first Window that we can see in the App. 
 class firstfaceApp(QMainWindow, first):
     def __init__(self, parent=None):
         super(firstfaceApp, self).__init__(parent)
         self.setupUi(self)
 ```
-3. examples of button behavior 
+
+3. Button behavior used to Connect Windows 
+This is a piece of the code and an example of how we connect the windows in the different classes. With this, we linked all windows and we can go through between them without programs.
 ```.py
-    def load_data(self):
-        data = []
-        with open('database.csv') as listdatabase:
-            file = csv.reader(listdatabase, delimiter=",")
-            for a, row in enumerate(file):
-                for b, col in enumerate(row):
-                    data.append([a, b, col])
-                    self.tableWidget.setItem(a, b, QTableWidgetItem(col))
-        return data
+     # Behavior for the registration button ( open the registration window )  
+        self.registration.clicked.connect(self.regA)
+     # Behavior for the login button ( open the Login window ) 
+        self.login.clicked.connect(self.logAA)
+     # Behavior for the exit button ( exit the App )
+        self.exit.clicked.connect(self.exitApp)
+
+ # The function that allows opening the registration window.  
+    def regA(self):
+        regVar = RegistrationApp(self)
+        regVar.show()
 ```
 
+4. Registration, security system ( Some parts of the code )
+This code is responsible for the primer security system of the App, where to enter first the user should input the user_name, password, and confirmed the password. Also, this information will be stored but in a hash, so the security system is reliable. 
+```.py
+    def try_regist(self):
+        if self.validate_registration():
+            self.store()        
+    def validate_registration(self):
+        email = self.validate_email()
+        password = self.validate_password()
+        self.regist.clicked.connect(self.userf)
+        return email and password
+    def store(self):
+        email = self.lineEdit.text()
+        password = self.lineEdit_2.text()
+        print("Hashing", email + password)
+        msg = hash_password(email + password)
+        with open('Output.txt', "a") as output_file:
+            output_file.write('{}\n'.format(msg))
+        self.close()
+```
+5. Try login ( Parts of the code ). 
+It guarantees the security of the Program where only allows the user to enter after input the correct user_name and password. 
 ```.py 
     def try_login(self):
         #self.LogIn.clicked.connect(self.userf)
@@ -165,8 +191,19 @@ class firstfaceApp(QMainWindow, first):
                 if verify_password(stored_password, correct_password):
                     self.LogIn.clicked.connect(self.userf)
 ```
-
-
+6. Writing and Reading data inputted in the table.
+```.py
+    def load_data(self):
+        data = []
+        with open('database.csv') as listdatabase:
+            file = csv.reader(listdatabase, delimiter=",")
+            for a, row in enumerate(file):
+                for b, col in enumerate(row):
+                    data.append([a, b, col])
+                    self.tableWidget.setItem(a, b, QTableWidgetItem(col))
+        return data
+```
+7. Edit and Save information in the table 
 
 
 4.Evaluation 
@@ -236,3 +273,11 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         | input change, to delete, | input new shoes or delete       |          | the code and run it with      |          |
 |         | to edit the tables       | them, Edit data and save it     |          | the App                       |          |
 |         | in the inventory         |                                 |          |                               |          |
+| 11      | Design                   | The System diagram of the       | 1 hour   | Come with a basic idea of     | B        |
+|         | Draw the system diagram &| APP and 3 flow charts of        |          | the intended system diagram   |          |
+|         | flow charts of the codes | codes used in the App           |          | and draw 3 flow charts of 3   |          |
+|         |                          |                                 |          | main codes inside the App     |          |
+| 12      | Evaluation               | Proof that All the success      | 1 hour   | Create a basic outline for    | D        |
+|         | Make a video recording of| criteria points where           |          | the video following it        |          |
+|         | the application working  | achieved                        |          | and cover all the points      |          |
+|         |                          |                                 |          | in the success criteria       |          |

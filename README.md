@@ -232,7 +232,6 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |   1     | Planning:                | Acquire the first               | 15 min   | Did not come with clear       |     A    |
 |         | Meet with the client for | requirements of the client      |          | questions, nor did the client |          |
 |         | the first conversation   |                                 |          | have clear requirements       |          |
-|         |                          |                                 |          |                               |          |
 |   2     | Development: Create      | A phyton scrip that allows      |  1 hour  | Developed functions such as   |          |
 |         | a secure login system    | encrypted login of a user       |          | "log in" & "register", using  |     A    |
 |         | using phyton             |                                 |          | an encrypted password system. |          |
@@ -244,7 +243,6 @@ This table shows the 5 phases of the design: Planning, Design, Development, Test
 |         | Make a basic skecth draw | application, defining the basics|          | a sketch for the application  |          |
 |         | of the interface for the | inputs, labels and buttons      |          | ask for feedback to the       |          |
 |         | application              |  within the app                 |          | client                        |          |
-|         |                          |                                 |          |                               |          |
 |  5      | Planning:                | general feedback about the      |  25 min  | the skecth was already made as|    A     |
 |         | Meet with client for the |first draw for the user interface|          | a draw. Present the sketh for |          |
 |         | 3rd conversation         |client give arguments in the way |          | cleint view                   |          |

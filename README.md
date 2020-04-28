@@ -2,7 +2,7 @@
 
  SHOE APP ( INVENTORY ) 
 ===========================
-
+![planning](imagem.png)
 A SHOE Inventoy APP created using Python
 
 
@@ -34,18 +34,6 @@ Contents
 7. Show the last time that the shoe was used;
 8. Every shoe can be edited and deleted.
 
-
-
- 2.Design 
-==============================================
-
-### python
-```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.( Python wikipedia )
-
-### Why I decided to use python
-
-Python is one of the most used/appreciated programming language by developers and software engineers. A big number of applications and webs that we use/enjoy today are because of Python. Python presents a versability and flexibility. Besides, abundant libraries, a collection of modules, and extensions that allow developers to create efficient programs or apps. Additionally, python can do complex tasks and possess a clean syntax and it is easy to learn. It is recommendable for Beginners and experienced programmers. It can connect to database systems, and also, read and modify files.
-
 # T.E.L.O.S 
 feasibility study:
 
@@ -58,20 +46,24 @@ O - Operational - How will the current operations support the change?
 S - Scheduling - Can the project be done in time? 
 (Wiki/TELOS)
 
-The user will be no longer unable to manage its supply of shoes. The App will be created to help the user to manage his shoe inventory. Using Python will be possible to create a program that will meet all the necessities of the user. That is, it will achieve all the items in the success criteria. The program will have a simple process of installation, without a large cust for the user. For the developer the cust for creating the program is manageable and this program will bring better benefits for the user.  The developer is using one of the most used programming languages that present no illegal issues, and there will be no divergence between the new system and any regulations. As I mentioned before the app will bring a large benefit for the user, and providing that is his first App the user should have or learn basic computational skills to manage it, but there is a certain question if the app can be used offline. Besides this, the work will certainly be automatized/improved. Considering the time that might be needed to finish the app, going through all the steps, the program can be done in time. 
+The user will be no longer unable to manage its supply of shoes. The App will be created to help the user to manage his shoe inventory. Using Python and Qt design we will be able to create a program that will meet all the necessities of the user. That is, it will achieve all the items in the success criteria. The program will have a simple process of installation, without a large cust for the user. For the developer the cust for creating the program is manageable.  The developer is using one of the most used programming languages that present no illegal issues, and there will be no divergence between the new system and any regulations. 
 
-### Qt Design
-Qt Designer is Qt's tool for designing and building graphical user interfaces (GUIs) from Qt components. You can compose and customize your widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and test them using different styles and resolutions. (designer-manual.html)
 
-The Qt design is the tool that I am going to use to design the user interface for the app shoe. I will use this because is easy to manage, use, and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the app this the right tool.   
+ 2.Design 
+==============================================
+
+# System Diagram of the App
+ 
 
 ### 1 Step drawing the windows - Basic draw of a user face ( sketch of the App )
 
-These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design, platform chosen by reasons already mentioned above. Working with Pycharm (python language) in the end we expect to have all the windows where in the future we will connect and run them using Py language. 
+These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design. The platform was chosen by reasons that will be mentioned below ( in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
 ![planning](second.jpg)
 
 ### 2 Step 
- Using the Qt design we could design user interfaces for the Shoe App. he image below show the user interfaces created by the developer and below the image, there is a stretch of the code that expresses the interface in python language. 
+ With Qt design, we designed user interfaces for the App. After that only left to convert the QT windows into python code then we will be able to run them and connect all of them. 
+To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
+ The images below show the windows created for the App, already running in python. Also, below the image, there is a stretch of the code that expresses the windows in python language.  
 ![planning](firste.png)
 
 ```.py
@@ -86,52 +78,31 @@ class userface1Form(object):
             "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
             "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
 ```
-
-
+# Flow charts 
 
 3.Development 
 ==============================================
 
+### python
+```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.( Python wikipedia )
 
-Python Appication
-```.py
-ser = {'username': None, 'password-hash': None, 'Salt': None}
+### Why I decided to use python
 
-print("1 - Register ")
-print("2 - Log in ")
-print("3 - Exit")
-opt = 10
-while opt > 3:
-    opt = int(input("Enter option (1, 2, 3) "))
+Python is one of the most used/appreciated programming language by developers and software engineers. A big number of applications and webs that we enjoy today are because of Python. Python presents versability and flexibility. Besides, abundant libraries, a collection of modules, and extensions that allow developers to create efficient programs. Additionally, python can do complex tasks and possess a clean syntax and it is easy to learn. It is recommendable for Beginners and experienced programmers. It can connect to database systems, and also, read and modify files.
 
-# Registration
+### Qt Design
+Qt Designer is Qt's tool for designing and building graphical user interfaces (GUIs) from Qt components. You can compose and customize your widgets or dialogs in a what-you-see-is-what-you-get (WYSIWYG) manner, and test them using different styles and resolutions. (designer-manual.html)
 
-username = input("enter username: ")
+The Qt design is the tool that will be used to design the user interface (windows) for the App. It will be used because is easy to manage,  and We can obtain a good result with it. Moreover, We can use it with python. Providing that python is our main language to develop the project QT Design is the right tool.
 
-confirmed = False
-while not confirmed:
-    password = input('Enter password: ')
-    c_password = input('confirm your password: ')
-
-    # confirmed = True if password == c_password else False
-    if password == c_password:
-        confirmed = True
-
-print("Password confirmed")
-```
-This code above is an example of a python application. Where we successfully create a program that asks for registration of the user. Additionally if possible to input a password and confirm it. The program, in the beginning, asks for 3 options: Registration, login, and Exit. In option registration, the user will be asked to input the username and password, and the password can be successfully confirmed. This is important because is one of the first steps for the inventory.  
+# Coding and Running the App in Python ( Pycharm )
 
 ### Process Of Creating the App 
 
-```.py
-class Ui_firstfaceForm(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(457, 527)
-```
 
-1. Import windows to App runner 
-Within the pycharm we were able convert all the windows that we create in the Qt design in to python code(by writting in the terminal ```.py pyuic5 ..... -o .....py ```), then using the first line 
+ Import windows to App runner 
+
+
 ```.py
 from ShoeAppfinall.firstface import Ui_firstfaceForm as first
 from ShoeAppfinall.Registration import Ui_RegistrationForm as reg                                                

@@ -3,7 +3,8 @@
  SHOE APP ( INVENTORY ) 
 ===========================
 ![planning](imagem.jpeg)
-A SHOE Inventoy APP created using Python
+
+A SHOE Inventoy APP created using Python designed in QT design 
 
 
 Contents

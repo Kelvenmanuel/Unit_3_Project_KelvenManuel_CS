@@ -82,7 +82,9 @@ class userface1Form(object):
             "color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
             "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
 ```
-# Flow charts 
+# Flowcharts 
+![planning](flow1.png)![planning](flow2.png)
+
 
 3.Development 
 ==============================================

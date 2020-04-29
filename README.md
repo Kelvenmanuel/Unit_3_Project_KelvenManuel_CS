@@ -53,14 +53,17 @@ The user will be no longer unable to manage its supply of shoes. The App will be
  2.Design 
 ==============================================
 
-# System Diagram of the App
- 
+### System Diagram of the App
+The image below shoes the sytem diagram of the program where we put the input (Keyboard), the basic content of the Windows, and the output (Computer monitor). In the Monitor we are expected to see, and input data using the keyboard. 
+![planning](system.png)
+### fig 01
+
 
 ### 1 Step drawing the windows - Basic draw of a user face ( sketch of the App )
 
 These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design. The platform was chosen by reasons that will be mentioned below ( in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
 ![planning](second.jpg)
-### fig 01 
+### fig 02 
 
 
 ### 2 Step Convert into python programming language and run them 
@@ -68,7 +71,7 @@ These are basic drawings of the windows/user faces intended for the App. Having 
 To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
  The images below show the windows created for the App, already running in python. Also, below the image, there is a stretch of the code that expresses the windows in python language.  
 ![planning](firste.png)
-### fig 02
+### fig 03
 
 ```.py
 from PyQt5 import QtCore, QtGui, QtWidgets
@@ -85,11 +88,11 @@ class userface1Form(object):
 # Flowcharts 
 1. The flowchart below is a graphical representation of the process to code the try Login system, this aims to communicate how the process works or should work. A basic 
 ![planning](flow1.png)
-### fig 03
+### fig 04
 
 2. The flowchart below is another graphical representation of the process to code the Save system for one of the tables. The save code we Apply when we are making changes in the data inside the table in the iventory and we want to store them.
 ![planning](flow2.png)
-### fig 04
+### fig 05
 
 3.Development 
 ==============================================
@@ -185,7 +188,7 @@ This code is responsible for the primer security system of the App, where to ent
         self.close()
 ```
 5. Try login ( Parts of the code ). 
-The flowchart of the code is showed above in the Design(fig 03).
+The flowchart of the code is showed above in the Design(fig 04).
 It guarantees the security of the Program where only allows the user to enter after input the correct user_name and password. 
 ```.py 
     def try_login(self):
@@ -223,7 +226,7 @@ These 2 codes below are an example of the codes that we use to edit and save dat
         self.edit2.setDisabled(False)
         self.atras2.setDisabled(False)
 ```
-The flowchart of the code is showed above in the Design(fig 04)
+The flowchart of the code is showed above in the Design(fig 05)
 ```.py
     def save(self):
         with open('populardatabase.csv', 'w', newline='') as DTpb:

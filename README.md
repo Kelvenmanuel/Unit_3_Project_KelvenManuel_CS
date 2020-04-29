@@ -83,8 +83,13 @@ class userface1Form(object):
             "background-color: qlineargradient(spread:pad, x1:0.615463, y1:0.642045, x2:0.8867, y2:0.846591, stop:0.142857 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));")
 ```
 # Flowcharts 
-![planning](flow1.png)![planning](flow2.png)
+1. The flowchart below is a graphical representation of the process to code the try Login system, this aims to communicate how the process works or should work. A basic 
+![planning](flow1.png)
+### fig 03
 
+2. The flowchart below is another graphical representation of the process to code the Save system for one of the tables. The save code we Apply when we are making changes in the data inside the table in the iventory and we want to store them.
+![planning](flow2.png)
+### fig 04
 
 3.Development 
 ==============================================
@@ -180,6 +185,7 @@ This code is responsible for the primer security system of the App, where to ent
         self.close()
 ```
 5. Try login ( Parts of the code ). 
+The flowchart of the code is showed above in the Design(fig 03).
 It guarantees the security of the Program where only allows the user to enter after input the correct user_name and password. 
 ```.py 
     def try_login(self):
@@ -217,6 +223,7 @@ These 2 codes below are an example of the codes that we use to edit and save dat
         self.edit2.setDisabled(False)
         self.atras2.setDisabled(False)
 ```
+The flowchart of the code is showed above in the Design(fig 04)
 ```.py
     def save(self):
         with open('populardatabase.csv', 'w', newline='') as DTpb:
@@ -231,6 +238,10 @@ These 2 codes below are an example of the codes that we use to edit and save dat
                         line.append(data.text())
                 writer.writerow(line)
         print("Save to populardatabase.csv")
+        
+    def cancel(self):
+        self.load_data()
+        print("Reload table")
 ```
 
 4.Evaluation 

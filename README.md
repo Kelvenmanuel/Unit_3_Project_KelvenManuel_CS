@@ -204,7 +204,32 @@ It guarantees the security of the Program where only allows the user to enter af
         return data
 ```
 7. Edit and Save information in the table 
-
+These 2 codes below are an example of the codes that we use to edit and save data inputted by the user in the table. We created 5 tables with distinct functions every table is responsible for containing data about shoes in different sections such as rented shoes, and sports shoes.   
+```.py
+    def changeDB(self):
+        item = self.tableWidget.currentItem()
+        row = self.tableWidget.currentRow()
+        col = self.tableWidget.currentColumn()
+        self.tableWidget.item(row, col).setBackground(PyQt5.QtWidgets.QtGui.QColor(100, 100, 150))
+        print(item.text())
+        self.edit2.setDisabled(False)
+        self.atras2.setDisabled(False)
+```
+```.py
+    def save(self):
+        with open('populardatabase.csv', 'w', newline='') as DTpb:
+            writer=csv.writer(DTpb)
+            row_max = self.tableWidget.rowCount()
+            col_max = self.tableWidget.columnCount()
+            for row in range(row_max):
+                line = []
+                for col in range(col_max):
+                    data=self.tableWidget.item(row, col)
+                    if data is not None:
+                        line.append(data.text())
+                writer.writerow(line)
+        print("Save to populardatabase.csv")
+```
 
 4.Evaluation 
 ==============================================

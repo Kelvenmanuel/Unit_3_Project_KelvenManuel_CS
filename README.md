@@ -31,10 +31,11 @@ Contents
 3. Identify the brand and the country that produced the Shoe;
 4. Information about shoes supply of a specific shoe; 
 5. Identify the colorway of every shoe; 
-6. Recognize/provide the current price, past and retail price of every shoe;
+6. Recognize/provide the current price and retail price of every shoe;
 7. Display the volatility of every shoe;
 8. Organize the shoes in different categories; 
-9. Every shoe can be edited and deleted;
+9. Identify if a shoe is rented or free
+10. Every a shoe can be created, edited and deleted;
 
 
 # T.E.L.O.S 

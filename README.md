@@ -100,6 +100,7 @@ class userface1Form(object):
 ### Test Plan
 This is the test plan for the Shoe APP inventory with all the input and the expected outputs 
 ![planning](eu1.png)
+### fig 06
 
 3.Development 
 ==============================================
@@ -260,6 +261,7 @@ The flowchart of the code is showed above in the Design(fig 05)
 ### Test Plan
 This is the test plan for the Shoe APP inventory with all the input and the expected outputs already checked 
 ![planning](eu.png)
+### fig 07
 
 
 ### What we can do to improve this program?

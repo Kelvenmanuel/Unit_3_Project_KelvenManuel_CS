@@ -26,14 +26,16 @@ Contents
 
 ### Success criteria
 
-1. Identify the brand and the country that produced the Shoe;
-2. Information about how many shoes the inventory has;
-3. Identify the colorway of every shoe; 
-4. Recognize/provide the current price, past and retail price of every shoe;
-5. Display the volatility of every shoe;
-6. Provide the amount of sales that every shoe has;
-7. Show the last time that the shoe was used;
-8. Every shoe can be edited and deleted.
+1. Create a Registration System; 
+2. Create Login System; 
+3. Identify the brand and the country that produced the Shoe;
+4. Information about shoes supply of a specific shoe; 
+5. Identify the colorway of every shoe; 
+6. Recognize/provide the current price, past and retail price of every shoe;
+7. Display the volatility of every shoe;
+8. Organize the shoes in different categories; 
+9. Every shoe can be edited and deleted;
+
 
 # T.E.L.O.S 
 feasibility study:

@@ -34,8 +34,8 @@ Contents
 6. Recognize/provide the current price and retail price of every shoe;
 7. Display the volatility of every shoe;
 8. Organize the shoes in different categories; 
-9. Identify if a shoe is rented or free
-10. Every a shoe can be created, edited and deleted;
+9. Identify the state of a shoe if is rented or free;
+10. A shoe can be created, edited and deleted;
 
 
 # T.E.L.O.S 
@@ -263,8 +263,18 @@ This is the test plan for the Shoe APP inventory with all the input and the expe
 ![planning](eu.png)
 ### fig 07
 
+### link of the video showing finctionality of the App
+https://drive.google.com/drive/u/0/folders/1LroToxR6dvAlMBE8nLFqd9R5xnVKn9ny
 
-### What we can do to improve this program?
+### How the application could be extended/improved.
+1. In the registration and the login when we are writing inputs the spaces count as a caracther. The space should not count as a caracther.  This should be improved 
+2. When creating a show the table must ask for all the correct data, so if we miss the % in the volatility rate, or the currency (¥) in the price and retail price the data should not be saved, We should input all the correct information in the right column in the table. 
+3. Although, we can identify the state of the shoe if is free or rented. When editing a shoe if we change the state to rented. The whole information of the shoe, should be copy to the rented list. 
+4. We could provide more details about the shoe, such as the year that was launched, and a photo of it. 
+5. The App could have images of shoes. 
+
+
+
 
 ### References 
 

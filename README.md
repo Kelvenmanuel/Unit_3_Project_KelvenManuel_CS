@@ -19,22 +19,24 @@ Contents
 ==============================================
 
 ### Definition of the problem 
-  In 2020. A business Man, called Irving fang, is running a shoe company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. Mr. Irving has a significant number of shoes and does not know how to manage it. Besides, He presents a variety of brands with different shoe colorways, prices, and volatility. 
+  In 2020. A business Man, called Irving fang, is running a shoe company. The company name is Shoe with fang and they are responsible for selling high level and Quality shoes. Mr. Irving has a significant number of shoes and does not know how to manage it. Besides, He presents a variety of brands with different shoe colorways, prices, and volatility rates. 
 
 ### Proposed Solution 
-   Create an Application of software/App using the programming language ```PYTHON```, one of the top-picked programming languages of most universities and industries. The purpose of this application is to assist the user to manage their shoe supply. Where this App will meet the needs of the company, organizing the shoe in a set of criteria given by the user(Mr. Irving), such as brand, colorway, and quantity. Moreover, this app will allow the user to give the price of the shoe, edit their data and delete unnecessary or outdated information about shoes.  
+   Create an Application of software/App using the programming language ```PYTHON```, one of the top-picked programming languages of most universities and industries. 
+
+   The purpose of this application is to assist the user (client) to manage their shoe supply. Where this App will meet the needs of the company, organizing the shoe in a set of criteria given by the client(Mr. Irving), such as brand, colorway, and quantity. Moreover, this app will allow the user to give the price of the shoe, edit their data, and delete unnecessary or outdated information about shoes.  
 
 ### Success criteria
 
 1. Create a Registration System; 
-2. Create Login System; 
-3. Identify the brand and the country that produced the Shoe;
-4. Information about shoes supply of a specific shoe; 
+2. Create a Login System; 
+3. Identify the brand and the country where the Shoe was produced;
+4. Information about the shoe supply of a specific shoe; 
 5. Identify the colorway of every shoe; 
 6. Recognize/provide the current price and retail price of every shoe;
-7. Display the volatility of every shoe;
-8. Organize the shoes in different categories; 
-9. Identify the state of a shoe if is rented or free;
+7. Display the volatility rate of every shoe;
+8. Organize the shoes in different categories or lists; 
+9. Identify the state of a shoe if it is rented or free;
 10. A shoe can be created, edited and deleted;
 
 
@@ -57,22 +59,23 @@ The user will be no longer unable to manage its supply of shoes. The App will be
 ==============================================
 
 ### System Diagram of the App
-The image below shoes the sytem diagram of the program where we put the input (Keyboard), the basic content of the Windows, and the output (Computer monitor). In the Monitor we are expected to see, and input data using the keyboard. 
+The image below shows the system diagram of the program where we mention the input (Keyboard), the basic content of the Windows, and the output (Computer monitor). At the end, we expected to see and to input data (using the keyboard) in the table sowed in the monitor.  
 ![planning](system.png)
 ### fig 01
 
 
 ### 1 Step drawing the windows - Basic draw of a user face ( sketch of the App )
 
-These are basic drawings of the windows/user faces intended for the App. Having this, we can start creating the windows using the QT design. The platform was chosen by reasons that will be mentioned below ( in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
+   These are basic drawings of the windows intended for the App. Having this, we can start creating the windows using the QT design. The platform that we will use to create the Windows (QT design) was chosen by reasons that will be mentioned below (in the Development). Also, working with Pycharm (python language) in the end we expect to have all the windows. Therefore, we will be able to connect and run them.  
 ![planning](second.jpg)
 ### fig 02 
 
 
 ### 2 Step Convert into python programming language and run them 
- With Qt design, we designed user interfaces for the App. After that only left to convert the QT windows into python code then we will be able to run them and connect all of them. 
-To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
- The images below show the windows created for the App, already running in python. Also, below the image, there is a stretch of the code that expresses the windows in python language.  
+  With Qt design, we designed user interfaces for the App. After that only left to convert the QT windows into python code then we will be able to run them and connect all of them. 
+
+  To convert QT Windows into python code we write in the terminal  ```.py pyuic5   (name of the window) -o (name of the window).py ```
+ The images below show the windows created for the App, already running in python. Also, below the image, there is a part of the code that expresses the QT windows in python language. .  
 ![planning](firste.png)
 ### fig 03
 
@@ -93,7 +96,7 @@ class userface1Form(object):
 ![planning](flow1.png)
 ### fig 04
 
-2. The flowchart below is another graphical representation of the process to code the Save system for one of the tables. The save code we Apply when we are making changes in the data inside the table in the iventory and we want to store them.
+2. The flowchart below is another graphical representation of the process to code the Save system for one of the tables. The save code we Apply when we are making changes in the data inside the table in the inventory and we want to store them.
 ![planning](flow2.png)
 ### fig 05
 
@@ -106,7 +109,7 @@ This is the test plan for the Shoe APP inventory with all the input and the expe
 ==============================================
 
 ### python
-```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.( Python wikipedia )
+```PYTHON```is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. ( Python Wikipedia )
 
 ### Why I decided to use python
 
@@ -137,7 +140,7 @@ Import windows and connect them ( button behavior )
 Now I will address this section: 
 
 1. Import the code of the UI Windows into a single python file.
-This python file will be our main file for running the App. Therefore, we will be allowed to create classes and input there  only necessary elements that we will code.
+This python file will be our main file for running the App. Therefore, we will be allowed to create classes and input there only necessary elements that we will code.
 ```.py
 # All the windows that we need to import to run the App completely.
 from ShoeAppfinall.firstface import Ui_firstfaceForm as first
@@ -160,7 +163,7 @@ class firstfaceApp(QMainWindow, first):
 ```
 
 3. Button behavior used to Connect Windows 
-This is a piece of the code and an example of how we connect the windows in the different classes. With this, we linked all windows and we can go through between them without programs.
+This is a piece of the code and an example of how we connect the windows in the different classes. With this, we linked all windows and we can go through between them without errors. 
 ```.py
      # Behavior for the registration button ( open the registration window )  
         self.registration.clicked.connect(self.regA)
@@ -196,7 +199,7 @@ This code is responsible for the primer security system of the App, where to ent
         self.close()
 ```
 5. Try login ( Parts of the code ). 
-The flowchart of the code is showed above in the Design(fig 04).
+The flowchart of the code is shown above in the Design(fig 04).
 It guarantees the security of the Program where only allows the user to enter after input the correct user_name and password. 
 ```.py 
     def try_login(self):
@@ -223,7 +226,7 @@ It guarantees the security of the Program where only allows the user to enter af
         return data
 ```
 7. Edit and Save information in the table 
-These 2 codes below are an example of the codes that we use to edit and save data inputted by the user in the table. We created 5 tables with distinct functions every table is responsible for containing data about shoes in different sections such as rented shoes, and sports shoes.   
+These 2 codes below are an example of the codes that we use to edit and save data inputted by the user in the table. We created 5 tables with distinct functions every table is responsible for containing data about shoes in different categories such as rented shoes and sports shoes.    
 ```.py
     def changeDB(self):
         item = self.tableWidget.currentItem()
@@ -234,7 +237,7 @@ These 2 codes below are an example of the codes that we use to edit and save dat
         self.edit2.setDisabled(False)
         self.atras2.setDisabled(False)
 ```
-The flowchart of the code is showed above in the Design(fig 05)
+The flowchart of the code (below) is shown above in the Design(fig 05)
 ```.py
     def save(self):
         with open('populardatabase.csv', 'w', newline='') as DTpb:
@@ -263,18 +266,15 @@ This is the test plan for the Shoe APP inventory with all the input and the expe
 ![planning](eu.png)
 ### fig 07
 
-### link of the video showing finctionality of the App
+### link of the video showing the functionality of the App
 https://drive.google.com/drive/u/0/folders/1LroToxR6dvAlMBE8nLFqd9R5xnVKn9ny
 
 ### How the application could be extended/improved.
-1. In the registration and the login when we are writing inputs the spaces count as a caracther. The space should not count as a caracther.  This should be improved 
+1. In the registration and the login. When we are writing inputs the spaces count as a character. Space should not count as a character.  This should be improved 
 2. When creating a show the table must ask for all the correct data, so if we miss the % in the volatility rate, or the currency (¥) in the price and retail price the data should not be saved, We should input all the correct information in the right column in the table. 
-3. Although, we can identify the state of the shoe if is free or rented. When editing a shoe if we change the state to rented. The whole information of the shoe, should be copy to the rented list. 
+3. Although, we can identify the state of the shoe if is free or rented. When editing a shoe if we change the state to rent. The whole information of the shoe should be copy and provided to the rented list. 
 4. We could provide more details about the shoe, such as the year that was launched, and a photo of it. 
 5. The App could have images of shoes. 
-
-
-
 
 ### References 
 
